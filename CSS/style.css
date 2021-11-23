@@ -36,7 +36,6 @@ a {
 .logo {
   color: var(--title-text-color);
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -89,6 +88,7 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  cursor:pointer;
 }
 /* Особенности */
 .features.text {
@@ -136,6 +136,7 @@ a {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  cursor:pointer;
 }
 
 .button.filter:hover,
@@ -165,7 +166,6 @@ a {
   color: var(--text-white-color);
   background-color: var(--black-bg-color);
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
