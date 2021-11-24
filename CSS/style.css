@@ -36,6 +36,7 @@ a {
 .logo {
   color: var(--title-text-color);
   font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -88,12 +89,10 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  cursor:pointer;
 }
 /* Особенности */
 .features.text {
   color: var(--primary-text-color);
-  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -105,13 +104,17 @@ a {
   text-align: center;
 }
 
-/* Особенности */
 .features .title,
 .filters .title,
 .projects .title {
   visibility: hidden;
 }
-
+.features-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
+}
 /* Наша команда */
 .team-name {
   color: var(--title-text-color);
@@ -136,7 +139,6 @@ a {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  cursor:pointer;
 }
 
 .button.filter:hover,
@@ -166,7 +168,7 @@ a {
   color: var(--text-white-color);
   background-color: var(--black-bg-color);
   font-style: normal;
-  font-size: 14px;
+  font-weight: normal;
   line-height: 1.71;
 }
 .contact.link {
@@ -175,4 +177,3 @@ a {
 .logo.footer {
   background-color: var(--black-bg-color);
 }
-/* Список проектов */
